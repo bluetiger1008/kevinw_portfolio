@@ -35,7 +35,7 @@ export default function About() {
 								className="relative w-full h-full">
 								<Image
 									src={Me1}
-									alt="Alvalens"
+									alt="KevinW"
 									fill
 									sizes="(max-width: 768px) 80vw, 40vw"
 									className="object-cover"
@@ -59,7 +59,7 @@ export default function About() {
 								className="relative w-full h-full">
 								<Image
 									src={Me2}
-									alt="Alvalens"
+									alt="KevinW"
 									fill
 									sizes="(max-width: 768px) 60vw, 25vw"
 									className="object-cover"
@@ -85,7 +85,7 @@ export default function About() {
 								className="relative w-full h-full">
 								<Image
 									src={Me3}
-									alt="Alvalens"
+									alt="KevinW"
 									fill
 									sizes="(max-width: 768px) 80vw, 35vw"
 									className="object-cover"

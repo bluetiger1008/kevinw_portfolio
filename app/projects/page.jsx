@@ -9,7 +9,7 @@ import Image from "next/image";
 import Intervyou1 from "@/public/image/projects/web/intervyou/intervyou-1.png";
 import Intervyou2 from "@/public/image/projects/web/intervyou/intervyou-2.png";
 import Intervyou3 from "@/public/image/projects/web/intervyou/intervyou-3.png";
-import ProjectAll from "@/public/image/projects.png";
+import ProjectAll from "@/public/image/projects.webp";
 
 import Hr from "@/components/Hr";
 import ProjectCard from "./components/ProjectCard";
@@ -46,11 +46,11 @@ export default function Page() {
 							className="relative bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
 								src={ProjectAll}
-								alt="Alvalens"
+								alt="Kevin projects"
 								fill
 								placeholder="blur"
 								className="object-cover"
-								sizes="(max-width: 768px) 80vw, 30vw"
+							// sizes="(max-width: 768px) 80vw, 30vw"
 							/>
 						</motion.div>
 					</div>
@@ -101,7 +101,7 @@ export default function Page() {
 									className="relative w-full h-full shadow-lg">
 									<Image
 										src={Intervyou1}
-										alt="Alvalens"
+										alt="Kevin projects"
 										fill
 										placeholder="blur"
 										className="rat object-cover"
@@ -125,7 +125,7 @@ export default function Page() {
 									className="relative w-full h-full shadow-lg ">
 									<Image
 										src={Intervyou3}
-										alt="Alvalens"
+										alt="KevinW"
 										fill
 										placeholder="blur"
 										className="object-cover"
@@ -152,7 +152,7 @@ export default function Page() {
 									className="relative w-full h-full shadow-lg">
 									<Image
 										src={Intervyou2}
-										alt="Alvalens"
+										alt="KevinW"
 										fill
 										placeholder="blur"
 										className="object-cover"
@@ -243,11 +243,10 @@ export default function Page() {
 					{Object.keys(category).map((key, index) => (
 						<button
 							key={index}
-							className={`px-2 md:px-4 py-2 rounded-lg cursor-pointer transition-all ease duration-300 focus:bg-gray-300 focus:text-black focus:ring focus:ring-slate-500 ${
-								activeCategory === key
-									? "bg-gray-300 text-black hover:bg-gray-700 hover:text-white"
-									: "bg-gray-700 text-white hover:bg-gray-300 hover:text-black"
-							}`}
+							className={`px-2 md:px-4 py-2 rounded-lg cursor-pointer transition-all ease duration-300 focus:bg-gray-300 focus:text-black focus:ring focus:ring-slate-500 ${activeCategory === key
+								? "bg-gray-300 text-black hover:bg-gray-700 hover:text-white"
+								: "bg-gray-700 text-white hover:bg-gray-300 hover:text-black"
+								}`}
 							onClick={() => setActiveCategory(key)}>
 							{category[key]}
 						</button>

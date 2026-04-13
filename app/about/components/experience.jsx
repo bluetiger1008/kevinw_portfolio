@@ -11,7 +11,7 @@ const experiences = [
 		company: "OPSWAT",
 		position: "Software Developer",
 		type: "Part-time",
-		location: "Malang, Indonesia",
+		location: "Florida, U.S",
 		description:
 			`
 			<ul class="pl-8">
@@ -50,7 +50,7 @@ const experiences = [
 		company: "Fairmint",
 		position: "Frontend Developer",
 		type: "Contract (Remote)",
-		location: "Malang, Indonesia",
+		location: "California, U.S",
 		description:
 			`
 			<ul class="pl-8">
@@ -92,8 +92,8 @@ const experiences = [
 		endDate: "Nov 2024",
 		company: "TexasMattressMakers",
 		position: "Full Stack Developer",
-		type: "Part-time",
-		location: "Remote",
+		type: "Full time",
+		location: "Houston, U.S",
 		description:
 			`
 			<ul class="pl-8">
@@ -138,7 +138,7 @@ const experiences = [
 		company: "CoachUp, Inc",
 		position: "Lead Full-Stack Engineer",
 		type: "Full-time (Remote)",
-		location: "Florida, U.S",
+		location: "Massachusetts, U.S",
 		description:
 			`<ul class="pl-8">
 				<li class="list-disc">Designed and built the entire trainer booking platform end‑to‑end, including

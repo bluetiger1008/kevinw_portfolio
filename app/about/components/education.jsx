@@ -158,7 +158,7 @@ export default function Education() {
 					</p>
 				</motion.div>
 				{/* Main Content */}
-				<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+				<div className="grid grid-cols-1 gap-8">
 					{/* Education Section - Left */}
 					<motion.div
 						className="px-5"

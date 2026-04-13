@@ -14,7 +14,7 @@ import Button from "@/components/Button";
 import Me from "@/public/image/kevin_front.png";
 import MeAbout from "@/public/image/me2.png";
 import Setup from "@/public/image/setup.jpg";
-import ProjectAll from "@/public/image/projects.png";
+import ProjectAll from "@/public/image/projects.webp";
 import Hr from "@/components/Hr";
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -81,7 +81,7 @@ const MyPage = () => {
 									width={500}
 									height={500}
 									className="rounded-full w-full h-full object-cover "
-									alt="Alvalens"
+									alt="KevinW"
 									placeholder="blur"
 								/>
 							</div>
@@ -159,7 +159,7 @@ const MyPage = () => {
 								width={400}
 								height={550}
 								placeholder="blur"
-								alt="Alvalens"
+								alt="KevinW"
 								className="rounded-full w-full h-full object-cover"
 							/>
 						</div>
@@ -192,7 +192,7 @@ const MyPage = () => {
 								fill
 								sizes="(max-width: 768px) 80vw, 30vw"
 								className="object-cover"
-								alt="Alvalens"
+								alt="KevinW"
 								placeholder="blur"
 							/>
 						</motion.div>
