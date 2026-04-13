@@ -45,13 +45,13 @@ export const metadata = {
 	openGraph: {
 		type: "website",
 		url: "https://www.alvalens.my.id",
-		title: "Alvalens | Portofolio",
-		siteName: "Alvalens | Portofolio",
-		description: "My name is Alvalens, This is my portofolio website.",
+		title: "Kevin Wang | Portofolio",
+		siteName: "Kevin Wang | Portofolio",
+		description: "My name is Kevin Wang, This is my portofolio website.",
 		images: [
 			{
 				url: "/og-image-rev.png",
-				alt: "Alvalens Portofolio",
+				alt: "Kevin Wang Portofolio",
 				width: 1200,
 				height: 630,
 			},
@@ -62,7 +62,7 @@ export const metadata = {
 const jsonLd = {
 	"@context": "https://schema.org",
 	"@type": "Person",
-	name: "Alvalen Shafelbilyunazra",
+	name: "Kevin Wang",
 	url: "https://www.alvalens.my.id",
 	jobTitle: "Full Stack Software Engineer",
 	worksFor: [
