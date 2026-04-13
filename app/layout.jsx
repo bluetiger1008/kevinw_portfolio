@@ -71,7 +71,7 @@ const jsonLd = {
 	],
 	alumniOf: {
 		"@type": "CollegeOrUniversity",
-		name: "Universitas Negeri Malang",
+		name: "Universitas of Florida",
 	},
 	sameAs: [
 		"https://github.com/Alvalens",
@@ -91,7 +91,7 @@ export default function RootLayout({ children }) {
 				<ClientTopProgressBar />
 				<Navbar />
 				{children}
-				<Chat />
+				{/* <Chat /> */}
 				<Analytics />
 			</body>
 		</html>

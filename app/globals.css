@@ -24,8 +24,10 @@ html:has(body.fullpage-active)::-webkit-scrollbar {
 /* Hide scrollbar for IE, Edge and Firefox */
 body.fullpage-active,
 html:has(body.fullpage-active) {
-	-ms-overflow-style: none; /* IE and Edge */
-	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none;
+	/* IE and Edge */
+	scrollbar-width: none;
+	/* Firefox */
 }
 
 h1,
@@ -61,7 +63,7 @@ span {
 }
 
 li {
-	@apply list-none relative;
+	@apply relative;
 }
 
 

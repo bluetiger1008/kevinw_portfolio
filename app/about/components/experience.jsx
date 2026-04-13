@@ -14,21 +14,21 @@ const experiences = [
 		location: "Malang, Indonesia",
 		description:
 			`
-			<ul>
-			<li>Maintained and enhanced Linux MetaDefender Kiosk web applications using React,
+			<ul class="pl-8">
+			<li class="list-disc">Maintained and enhanced Linux MetaDefender Kiosk web applications using React,
 			TypeScript, Redux Toolkit, and WebSocket to support mitigating removable media
 			threats.</li>
-			<li>Developed a React web application for modifying kiosk settings, improving data integrity
+			<li class="list-disc">Developed a React web application for modifying kiosk settings, improving data integrity
 			through advanced validation with React-Hook-Form and custom regex patterns.</li>
-			<li>Designed cross-document messaging (postMessage) to facilitate communication
+			<li class="list-disc">Designed cross-document messaging (postMessage) to facilitate communication
 			between the management site and the product iframe, ensuring framework agnostic
 			integration across teams.</li>
-			<li>Reduced UI-reported bugs by 50% by migrating select projects to TypeScript and
+			<li class="list-disc">Reduced UI-reported bugs by 50% by migrating select projects to TypeScript and
 			implementing 300 unit tests with Jest and React Testing Library.</li>
-			<li>Built media file selector and scan details features, optimizing performance and reducing
+			<li class="list-disc">Built media file selector and scan details features, optimizing performance and reducing
 			memory usage by 70% compared to previous versions by utilizing virtualized lists.</li>
-			<li>Improved TeamCity CI/CD pipeline build times by 10% with NPM workspaces.</li>
-			<li>Decreased bundle sizes by 12% through the migration of component library build tools
+			<li class="list-disc">Improved TeamCity CI/CD pipeline build times by 10% with NPM workspaces.</li>
+			<li class="list-disc">Decreased bundle sizes by 12% through the migration of component library build tools
 			to Rollup.js.
 			</li>
 			</ul>
@@ -53,25 +53,25 @@ const experiences = [
 		location: "Malang, Indonesia",
 		description:
 			`
-			<ul>
-			<li>Led the end‑to‑end development of Fairmint.com, building a modular React +
-			TypeScript frontend and a Node.js (Express) backend integrated with Hygraph 4
-			GraphQL APIs for dynamic content delivery and Stripe for secure checkout.</li>
-			<li>Architected dual payment infrastructure supporting both fiat (ACH/wire) and on-chain
-			stablecoin transactions (USDC/USDT), including wallet integration, transaction signing,
-			blockchain event/listener handling, and real-time settlement verification synchronized
-			with backend investment and cap table systems.</li>
-			<li>Built UI and data flows supporting cap table management, enabling separation of large
-			VC investments and aggregation (“roll-up”) of smaller investors into a single entity entry.</li>
-			<li>Enhanced UX and performance through responsive design, code‑splitting, lazy loading,
-			and image optimization, ensuring fast load times across all devices.</li>
-			<li>Implemented secure checkout and order‑processing workflows with robust API error
-			handling, data validation, and reliability improvements for transaction flows.
-			</li>
-			<li>Collaborated closely with designers, QA engineers, and stakeholders in Agile sprints;
-			documented technical decisions and supported deployment, monitoring, and ongoing
-			maintenance
-			</li>
+			<ul class="pl-8">
+				<li class="list-disc">Led the end‑to‑end development of Fairmint.com, building a modular React +
+				TypeScript frontend and a Node.js (Express) backend integrated with Hygraph 4
+				GraphQL APIs for dynamic content delivery and Stripe for secure checkout.</li>
+				<li class="list-disc">Architected dual payment infrastructure supporting both fiat (ACH/wire) and on-chain
+				stablecoin transactions (USDC/USDT), including wallet integration, transaction signing,
+				blockchain event/listener handling, and real-time settlement verification synchronized
+				with backend investment and cap table systems.</li>
+				<li class="list-disc">Built UI and data flows supporting cap table management, enabling separation of large
+				VC investments and aggregation (“roll-up”) of smaller investors into a single entity entry.</li>
+				<li class="list-disc">Enhanced UX and performance through responsive design, code‑splitting, lazy loading,
+				and image optimization, ensuring fast load times across all devices.</li>
+				<li class="list-disc">Implemented secure checkout and order‑processing workflows with robust API error
+				handling, data validation, and reliability improvements for transaction flows.
+				</li>
+				<li class="list-disc">Collaborated closely with designers, QA engineers, and stakeholders in Agile sprints;
+				documented technical decisions and supported deployment, monitoring, and ongoing
+				maintenance
+				</li>
 			</ul>
 		`,
 		skills: [
@@ -96,30 +96,30 @@ const experiences = [
 		location: "Remote",
 		description:
 			`
-			<ul>
-				<li>Developed a fully headless e‑commerce experience by integrating WordPress +
+			<ul class="pl-8">
+				<li class="list-disc">Developed a fully headless e‑commerce experience by integrating WordPress +
 				WooCommerce APIs with a custom Next.js frontend, improving performance,
 				calability, and maintainability.</li>
-				<li>Modeled structured content using Advanced Custom Fields (ACF) and Custom Post
+				<li class="list-disc">Modeled structured content using Advanced Custom Fields (ACF) and Custom Post
 				Types (CPT) to define flexible schemas, enabling reusable, component-driven content
 				delivery across the frontend.
 				</li>
-				<li>Implemented secure Stripe payment processing, including checkout flows, server‑side
+				<li class="list-disc">Implemented secure Stripe payment processing, including checkout flows, server‑side
 				validation, and webhook handling for order confirmation and fulfillment.
 				</li>
-				<li>Converted Figma designs into pixel‑perfect, mobile‑responsive UI, ensuring consistent
+				<li class="list-disc">Converted Figma designs into pixel‑perfect, mobile‑responsive UI, ensuring consistent
 				branding and flawless user experience across all devices.
 				</li>
-				<li>Optimized API communication between the WordPress backend and the Next.js
+				<li class="list-disc">Optimized API communication between the WordPress backend and the Next.js
 				frontend, improving data fetching, caching, and overall site performance.
 				</li>
-				<li>Customized WooCommerce endpoints to support advanced product logic, dynamic
+				<li class="list-disc">Customized WooCommerce endpoints to support advanced product logic, dynamic
 				pricing, and real‑time inventory updates.
 				</li>
-				<li>Collaborated with designers and stakeholders to refine UX, streamline user flows, and
+				<li class="list-disc">Collaborated with designers and stakeholders to refine UX, streamline user flows, and
 				deliver a high‑quality, production‑ready headless storefront.
 				</li>
-				<li>Improved SEO and Core Web Vitals through optimized rendering, image handling, and
+				<li class="list-disc">Improved SEO and Core Web Vitals through optimized rendering, image handling, and
 				performance tuning in Next.js.
 				</li>
 			</ul>
@@ -140,25 +140,25 @@ const experiences = [
 		type: "Full-time (Remote)",
 		location: "Florida, U.S",
 		description:
-			`<ul>
-				<li>Designed and built the entire trainer booking platform end‑to‑end, including
+			`<ul class="pl-8">
+				<li class="list-disc">Designed and built the entire trainer booking platform end‑to‑end, including
 				authentication, booking flows, trainer profiles, messaging, and session management.
 				</li>
-				<li>Developed a clean, scalable architecture using Next.js, React, Node.js, and modern API
+				<li class="list-disc">Developed a clean, scalable architecture using Next.js, React, Node.js, and modern API
 				patterns. </li>
-				<li>Reduced frontend bundle size and improved performance by replacing heavy
+				<li class="list-disc">Reduced frontend bundle size and improved performance by replacing heavy
 				dependencies like Redux with TanStack React Query and Zustand, modernizing form
 				handling with React Hook Form + Zod, and implementing code-splitting, lazy loading,
 				and optimized builds using Next.js, Webpack Analyzer, and Turbopack.</li>
-				<li>Implemented media upload pipelines using AWS S3, including secure file handling,
+				<li class="list-disc">Implemented media upload pipelines using AWS S3, including secure file handling,
 				pre-signed URLs, and optimized storage/access patterns for images and videos.</li>
-				<li>Integrated global payment and communication systems, including PayPal, Stripe,
+				<li class="list-disc">Integrated global payment and communication systems, including PayPal, Stripe,
 				Mailgun, and automated email flows.</li>
-				<li>Implemented analytics and growth tools (GA4, tracking funnels, user behavior insights)
+				<li class="list-disc">Implemented analytics and growth tools (GA4, tracking funnels, user behavior insights)
 				to support marketing and onboarding.</li>
-				<li>Optimized performance and SEO, improving load times, Core Web Vitals, and organic
+				<li class="list-disc">Optimized performance and SEO, improving load times, Core Web Vitals, and organic
 				discoverability.</li>
-				<li>Collaborated with trainers, athletes, and early adopters to refine features and improve
+				<li class="list-disc">Collaborated with trainers, athletes, and early adopters to refine features and improve
 				user experience.</li>
 			</ul>`,
 		skills: [
