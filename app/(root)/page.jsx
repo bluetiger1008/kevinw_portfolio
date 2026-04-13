@@ -369,8 +369,8 @@ const MyPage = () => {
 								delay: 0.3,
 								type: "spring",
 							}}>
-							<a href="mailto:wangkevin.1008@gmail.com?subject=Hello&body=Hello Kevin,">
-								wangkevin.1008@gmail.com
+							<a href="mailto:kevinwang@sportyconnects.com?subject=Hello&body=Hello Kevin,">
+								kevinwang@sportyconnects.com
 							</a>
 						</motion.p>
 						{/* icons */}
@@ -442,7 +442,7 @@ const MyPage = () => {
 									className="text-3xl"
 								/>
 							</motion.a>
-							<motion.a
+							{/* <motion.a
 								href="https://discordapp.com/users/bloody#6118"
 								target="_blank"
 								rel="noopener noreferrer"
@@ -458,7 +458,7 @@ const MyPage = () => {
 									icon={faDiscord}
 									className="text-3xl"
 								/>
-							</motion.a>
+							</motion.a> */}
 						</div>
 					</div>
 				</div>
