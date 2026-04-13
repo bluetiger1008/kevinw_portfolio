@@ -25,25 +25,21 @@ const jost = Jost({
 
 export const metadata = {
 	metadataBase: new URL("https://www.alvalens.my.id"),
-	title: "Alvalens | Portofolio",
+	title: "Kevin Wang | Portofolio",
 
 	description:
-		"Alvalen, Product-Minded Software Engineer specializing in Next.js, Spring Boot, and AI Solutions. Founder & CTO of Intervyou.",
+		"Kevin Wang, Product-Minded Software Engineer specializing in Next.js, Spring Boot, and AI Solutions. Founder & CTO of SportyConnects.",
 
-	author: "Alvalen Shafelbilyunazra",
+	author: "Kevin Wang",
 	siteUrl: "https://www.alvalens.my.id",
-	applicationName: "Alvalens",
+	applicationName: "Kevin",
 
 	keywords: [
-		"alvalens",
-		"alvalen",
-		"alvalen shafel",
-		"shafel",
-		"alvalen shafelbilyunazra",
-		"alvalen shafel bilyunazra",
-		"bloodfallen",
-		"alvalen porto",
-		"alvalen um",
+		"kevinwang",
+		"kevinwang",
+		"kevin wang",
+		"wang",
+		"kevin porto",
 	],
 
 	openGraph: {

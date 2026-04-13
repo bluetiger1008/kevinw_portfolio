@@ -35,7 +35,7 @@ export default function Page() {
 				<div className="relative h-screen  gap-4 p-10 flex justify-center items-center flex-col mb-10 overflow-hidden">
 					{/* hero */}
 					<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
-						<motion.div
+						{/* <motion.div
 							initial={{ scale: 1 }}
 							animate={{ scale: 1.6 }}
 							transition={{ ease: "circOut", duration: 1 }}
@@ -48,7 +48,7 @@ export default function Page() {
 								className="object-cover"
 								placeholder="blur"
 							/>
-						</motion.div>
+						</motion.div> */}
 					</div>
 					<div className="z-10 w-full absolute md:w-auto md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 pt-4 backdrop-filter backdrop-blur-sm md:backdrop-blur-none bg-gray-100 bg-opacity-50 md:bg-transparent md:pt-0">
 						<h1 className="md:bg-white bg-transparent lg:bg-transparent bg-opacity-50 md:px-0 text-black text-5xl md:text-8xl font-bold">
@@ -79,7 +79,7 @@ export default function Page() {
 				{/* end hero */}
 
 				{/* about */}
-				<About />
+				{/* <About /> */}
 				{/* end about */}
 
 				{/* skills */}

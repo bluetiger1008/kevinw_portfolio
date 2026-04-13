@@ -1,12 +1,12 @@
 {
-  "name": "alvalen-portfolio-website",
+  "name": "kevinwang-portfolio-website",
   "author": {
-    "name": "Alvalen Shafelbilyunazra",
-    "email": "alvalen.shafel04@gmail.com",
+    "name": "Kevin Wang",
+    "email": "wangkevin.1008@gmail.com",
     "url": "https://alvalens.my.id"
   },
   "license": "GPL-3.0",
-  "copyright": "Copyright (C) 2025 Alvalen Shafelbilyunazra",
+  "copyright": "Copyright (C) 2026 Kevin Wang",
   "version": "1.0.0",
   "private": true,
   "scripts": {

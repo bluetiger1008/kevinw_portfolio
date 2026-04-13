@@ -6,90 +6,33 @@ import { useState } from "react";
 const experiences = [
 	{
 		id: 1,
-		startDate: "Sep 2023",
-		endDate: "Jan 2024",
-		company: "Universitas Negeri Malang",
-		position: "Assistant Lecturer",
-		type: "Seasonal",
-		location: "Malang, Indonesia",
-		description:
-			"Assisted in teaching and mentoring students in algorithms and data structures, focusing on practical applications and problem-solving techniques. Developed course materials and provided support in lab sessions.",
-		skills: ["Python", "C", "Algorithms", "Data Structures", "Mentoring"],
-	},
-	{
-		id: 2,
-		startDate: "Jul 2024",
-		endDate: "Jan 2025",
-		company: "Outlier AI",
-		position: "AI Trainer",
-		type: "Freelance (Remote)",
-		location: "Oakland, California",
-		description:
-			"Trained LLM models using RLFH, focusing on enhancing their understanding of human language and improving their response accuracy. Collaborated with a team of AI specialists to refine model performance and ensure high-quality outputs.",
-		skills: [
-			"Generative AI",
-			"RLHF",
-			"LLM",
-			"Prompt Engineering",
-			"Teamwork",
-		],
-	},
-	{
-		id: 3,
-		startDate: "Jun 2023",
-		endDate: "Feb 2025",
-		company: "PUI-PT DLI",
-		position: "Fullstack Developer",
-		type: "Freelance",
-		location: "Malang, Indonesia",
-		description:
-			"Crafted and maintained web applications using Laravel, ensuring high performance and responsiveness. Collaborated with designers and other  developers to create seamless user experiences.",
-		skills: ["Laravel", "MySQL", "PHP", "JavaScript", "Teamwork"],
-	},
-	{
-		id: 4,
-		startDate: "Apr 2025",
-		endDate: "Jul 2025",
-		company: "Vektorian Labophase",
-		position: "Front-end Developer",
-		type: "Freelance",
-		location: "Malang, Indonesia",
-		description:
-			"Developed and maintained web applications using Next.js. Focused on creating responsive and user-friendly interfaces while ensuring backend functionality. Collaborated with backend and designers to implement modern UI/UX principles.",
-		skills: ["Next.js", "Typescript", "Teamwork"],
-	},
-	{
-		id: 5,
-		startDate: "Apr 2023",
-		endDate: "Jul 2025",
-		company: "Self-Employed",
-		position: "Web Developer & AI Consultant",
-		type: "Freelance",
-		location: "Malang, Indonesia",
-		description:
-			"Developed 15+ web applications using Next.js, React, and Laravel. Provided AI consulting services, including creating custom LLMs. Focused on delivering high-quality, user-friendly applications and AI solutions.",
-		skills: [
-			"Next.js",
-			"React",
-			"Laravel",
-			"MySQL",
-			"PostgreSQL",
-			"MongoDB",
-			"JavaScript",
-			"TypeScript",
-			"Gemini AI",
-		],
-	},
-	{
-		id: 6,
 		startDate: "Aug 2023",
 		endDate: "Feb 2025",
-		company: "PT Hafdzamedia Teknologi Aplikasi",
-		position: "Fullstack Web Developer",
+		company: "OPSWAT",
+		position: "Software Developer",
 		type: "Part-time",
 		location: "Malang, Indonesia",
 		description:
-			"Developed and maintained web applications using React, Next.js, and Laravel. Focused on creating responsive and user-friendly interfaces while ensuring backend functionality.",
+			`
+			<ul>
+			<li>Maintained and enhanced Linux MetaDefender Kiosk web applications using React,
+			TypeScript, Redux Toolkit, and WebSocket to support mitigating removable media
+			threats.</li>
+			<li>Developed a React web application for modifying kiosk settings, improving data integrity
+			through advanced validation with React-Hook-Form and custom regex patterns.</li>
+			<li>Designed cross-document messaging (postMessage) to facilitate communication
+			between the management site and the product iframe, ensuring framework agnostic
+			integration across teams.</li>
+			<li>Reduced UI-reported bugs by 50% by migrating select projects to TypeScript and
+			implementing 300 unit tests with Jest and React Testing Library.</li>
+			<li>Built media file selector and scan details features, optimizing performance and reducing
+			memory usage by 70% compared to previous versions by utilizing virtualized lists.</li>
+			<li>Improved TeamCity CI/CD pipeline build times by 10% with NPM workspaces.</li>
+			<li>Decreased bundle sizes by 12% through the migration of component library build tools
+			to Rollup.js.
+			</li>
+			</ul>
+			`,
 		skills: [
 			"React",
 			"Next.js",
@@ -101,15 +44,36 @@ const experiences = [
 		],
 	},
 	{
-		id: 7,
-		startDate: "Feb 2025",
-		endDate: "Aug 2025",
-		company: "Joki Proyek",
-		position: "IT Implementation Specialist",
+		id: 2,
+		startDate: "Jan 2022",
+		endDate: "Jan 2023",
+		company: "Fairmint",
+		position: "Frontend Developer",
 		type: "Contract (Remote)",
 		location: "Malang, Indonesia",
 		description:
-			"Engineered internal microservices architecture. Refactored legacy monolithic modules and optimized messaging systems using Laravel/Next.js.",
+			`
+			<ul>
+			<li>Led the end‑to‑end development of Fairmint.com, building a modular React +
+			TypeScript frontend and a Node.js (Express) backend integrated with Hygraph 4
+			GraphQL APIs for dynamic content delivery and Stripe for secure checkout.</li>
+			<li>Architected dual payment infrastructure supporting both fiat (ACH/wire) and on-chain
+			stablecoin transactions (USDC/USDT), including wallet integration, transaction signing,
+			blockchain event/listener handling, and real-time settlement verification synchronized
+			with backend investment and cap table systems.</li>
+			<li>Built UI and data flows supporting cap table management, enabling separation of large
+			VC investments and aggregation (“roll-up”) of smaller investors into a single entity entry.</li>
+			<li>Enhanced UX and performance through responsive design, code‑splitting, lazy loading,
+			and image optimization, ensuring fast load times across all devices.</li>
+			<li>Implemented secure checkout and order‑processing workflows with robust API error
+			handling, data validation, and reliability improvements for transaction flows.
+			</li>
+			<li>Collaborated closely with designers, QA engineers, and stakeholders in Agile sprints;
+			documented technical decisions and supported deployment, monitoring, and ongoing
+			maintenance
+			</li>
+			</ul>
+		`,
 		skills: [
 			"Next.js",
 			"Laravel",
@@ -123,15 +87,43 @@ const experiences = [
 		],
 	},
 	{
-		id: 8,
-		startDate: "Jan 2025",
-		endDate: "Present",
-		company: "Intervyou (Google for Startups)",
-		position: "Co-Founder & CTO",
+		id: 3,
+		startDate: "Feb 2023",
+		endDate: "Nov 2024",
+		company: "TexasMattressMakers",
+		position: "Full Stack Developer",
 		type: "Part-time",
 		location: "Remote",
 		description:
-			"Bootstrapped an AI-powered SaaS to 3,000+ users. Architected the core AI assessment engine using Next.js and RAG pipelines.",
+			`
+			<ul>
+				<li>Developed a fully headless e‑commerce experience by integrating WordPress +
+				WooCommerce APIs with a custom Next.js frontend, improving performance,
+				calability, and maintainability.</li>
+				<li>Modeled structured content using Advanced Custom Fields (ACF) and Custom Post
+				Types (CPT) to define flexible schemas, enabling reusable, component-driven content
+				delivery across the frontend.
+				</li>
+				<li>Implemented secure Stripe payment processing, including checkout flows, server‑side
+				validation, and webhook handling for order confirmation and fulfillment.
+				</li>
+				<li>Converted Figma designs into pixel‑perfect, mobile‑responsive UI, ensuring consistent
+				branding and flawless user experience across all devices.
+				</li>
+				<li>Optimized API communication between the WordPress backend and the Next.js
+				frontend, improving data fetching, caching, and overall site performance.
+				</li>
+				<li>Customized WooCommerce endpoints to support advanced product logic, dynamic
+				pricing, and real‑time inventory updates.
+				</li>
+				<li>Collaborated with designers and stakeholders to refine UX, streamline user flows, and
+				deliver a high‑quality, production‑ready headless storefront.
+				</li>
+				<li>Improved SEO and Core Web Vitals through optimized rendering, image handling, and
+				performance tuning in Next.js.
+				</li>
+			</ul>
+			`,
 		skills: [
 			"Next.js",
 			"Generative AI",
@@ -140,15 +132,35 @@ const experiences = [
 		],
 	},
 	{
-		id: 9, 
-		startDate: "Aug 2025",
-		endDate: "Present",
-		company: "MGG Software",
-		position: "Software Engineer (Enterprise Solutions)",
+		id: 4,
+		startDate: "Dec 2024",
+		endDate: "Apr 2026",
+		company: "CoachUp, Inc",
+		position: "Lead Full-Stack Engineer",
 		type: "Full-time (Remote)",
-		location: "Malang",
+		location: "Florida, U.S",
 		description:
-			"Core engineer for a Tier-1 Singaporean Government Agency. Engineered high-availability backend microservices using Java Spring Boot, ensuring 99.9% uptime for nationwide traffic.",
+			`<ul>
+				<li>Designed and built the entire trainer booking platform end‑to‑end, including
+				authentication, booking flows, trainer profiles, messaging, and session management.
+				</li>
+				<li>Developed a clean, scalable architecture using Next.js, React, Node.js, and modern API
+				patterns. </li>
+				<li>Reduced frontend bundle size and improved performance by replacing heavy
+				dependencies like Redux with TanStack React Query and Zustand, modernizing form
+				handling with React Hook Form + Zod, and implementing code-splitting, lazy loading,
+				and optimized builds using Next.js, Webpack Analyzer, and Turbopack.</li>
+				<li>Implemented media upload pipelines using AWS S3, including secure file handling,
+				pre-signed URLs, and optimized storage/access patterns for images and videos.</li>
+				<li>Integrated global payment and communication systems, including PayPal, Stripe,
+				Mailgun, and automated email flows.</li>
+				<li>Implemented analytics and growth tools (GA4, tracking funnels, user behavior insights)
+				to support marketing and onboarding.</li>
+				<li>Optimized performance and SEO, improving load times, Core Web Vitals, and organic
+				discoverability.</li>
+				<li>Collaborated with trainers, athletes, and early adopters to refine features and improve
+				user experience.</li>
+			</ul>`,
 		skills: [
 			"Java Spring Boot",
 			"Microservices",
@@ -193,11 +205,10 @@ function TimelineCard({ experience, index, isEven }) {
 			initial={{ opacity: 0, y: -20 }}
 			whileInView={{ opacity: 1, y: 0 }}
 			transition={{ delay: index * 0.15, duration: 0.5 }}
-			className={`flex ps-10 md:ps-0 ${
-				isEven
-					? "md:justify-center md:translate-x-68"
-					: "md:justify-center md:-translate-x-68"
-			} justify-center mb-4`}>
+			className={`flex ps-10 md:ps-0 ${isEven
+				? "md:justify-center md:translate-x-68"
+				: "md:justify-center md:-translate-x-68"
+				} justify-center mb-4`}>
 			<div className="bg-gradient-to-r from-black to-gray-800 text-white px-12 py-3 rounded-xl shadow-lg border border-gray-600 min-w-max">
 				<div className="flex items-center justify-center gap-6">
 					<div className="text-center">
@@ -227,9 +238,8 @@ function ExperienceCard({ experience, index, isEven }) {
 			initial={{ opacity: 0, y: 50 }}
 			whileInView={{ opacity: 1, y: 0 }}
 			transition={{ delay: index * 0.2, duration: 0.6 }}
-			className={`relative group ${
-				isEven ? "md:ml-auto md:pl-12" : "md:mr-auto md:pr-12"
-			} md:w-1/2`}>
+			className={`relative group ${isEven ? "md:ml-auto md:pl-12" : "md:mr-auto md:pr-12"
+				} md:w-1/2`}>
 			{" "}
 			{/* Card */}
 			<div
@@ -249,8 +259,7 @@ function ExperienceCard({ experience, index, isEven }) {
 				</div>
 
 				{/* Description */}
-				<p className="text-gray-600 text-justify leading-relaxed mb-4">
-					{experience.description}
+				<p className="text-gray-600 text-justify leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: experience.description }}>
 				</p>
 
 				{/* Skills */}

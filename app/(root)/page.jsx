@@ -11,7 +11,7 @@ import { FullPageWrapper, Section, useFullPage } from "@alvalens/react-fullpage-
 
 // components
 import Button from "@/components/Button";
-import Me from "@/public/image/alvalen-front.webp";
+import Me from "@/public/image/kevin_front.png";
 import MeAbout from "@/public/image/me2.jpg";
 import Setup from "@/public/image/setup.jpg";
 import ProjectAll from "@/public/image/projects.png";
@@ -94,7 +94,7 @@ const MyPage = () => {
 								delay: 0.2,
 								type: "spring",
 							}}>
-							Alvalen Shafel
+							Kevin Wang
 						</motion.h3>
 						<motion.h1
 							className="text-black text-4xl md:text-6xl lg:text-6xl 2xl:text-8xl font-bold my-2 md:my-5"
@@ -114,12 +114,14 @@ const MyPage = () => {
 								delay: 0.4,
 								type: "spring",
 							}}>
-							Hi! I&rsquo;am Alvalen, A fullstack software
-							engineer specializing in modern Web Development with
-							a growing focus on Artificial Intelligence. I
-							architect scalable, production-ready engines—from
-							high-traffic Java microservices to RAG-powered SaaS
-							platforms.
+							Experienced Software Engineer with 10 years of building reliable, high‑quality web applications.
+							Skilled in React, Node.js, WordPress, WooCommerce, Shopify, and custom theme development
+							across modern CMS platforms like Hygraph and Contentful. I focus on clean architecture,
+							maintainable code, and smooth collaboration with both technical and non‑technical teams. I
+							also work with AI integrations, adding smart features to websites and apps using tools like
+							OpenAI and Anthropic. This includes building chatbots, automating content, improving search
+							with embeddings, and creating AI‑powered workflows that make products faster, smarter, and
+							more efficient.
 						</motion.p>
 						<motion.div
 							className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -167,7 +169,7 @@ const MyPage = () => {
 			<Section>
 				<div className="relative md:h-screen w-screen gap-4 flex justify-center items-center flex-col overflow-hidden">
 					<div className="z-0 mb-48 md:mb-0  md:absolute md:top-1/2  md:right-[10%] md:-translate-y-1/2">
-						<motion.div
+						{/* <motion.div
 							className="relative bg-slate-300 rounded-sm h-[400px] md:h-[60vh] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0"
 							initial={{
 								x: 300,
@@ -193,7 +195,7 @@ const MyPage = () => {
 								alt="Alvalens"
 								placeholder="blur"
 							/>
-						</motion.div>
+						</motion.div> */}
 					</div>
 					<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
 						<motion.h1

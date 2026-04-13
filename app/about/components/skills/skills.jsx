@@ -21,6 +21,10 @@ const skillCategories = {
 			{ name: "Flask", highlight: false },
 			{ name: "Django", highlight: false },
 			{ name: "Firebase", highlight: false },
+			{ name: "Wordpress", highlight: true },
+			{ name: "Shopify", highlight: true },
+			{ name: "Framer", highlight: true },
+			{ name: "Webflow", highlight: true },
 		],
 		tools: [
 			"Vercel",
@@ -114,11 +118,10 @@ function SkillCard({ skill, isSelected, onClick }) {
 	return (
 		<motion.div
 			onClick={onClick}
-			className={`relative cursor-pointer group p-6 rounded-2xl border transition-all duration-300 ${
-				isSelected
-					? "bg-white/20 border-black border-2 shadow-lg"
-					: "bg-white/10 border-gray-300/20 hover:bg-white/20 hover:border-gray-300/30"
-			}`}
+			className={`relative cursor-pointer group p-6 rounded-2xl border transition-all duration-300 ${isSelected
+				? "bg-white/20 border-black border-2 shadow-lg"
+				: "bg-white/10 border-gray-300/20 hover:bg-white/20 hover:border-gray-300/30"
+				}`}
 			whileHover={{ scale: 1.03 }}
 			whileTap={{ scale: 0.97 }}
 			initial={{ opacity: 0, y: 20 }}
@@ -131,9 +134,8 @@ function SkillCard({ skill, isSelected, onClick }) {
 
 			<div className="relative z-10 flex flex-col items-center text-center space-y-4">
 				<div
-					className={`p-4 rounded-xl transition-all duration-300 ${
-						isSelected ? "bg-white/30" : "bg-white/10 group-hover:bg-white/20"
-					}`}>
+					className={`p-4 rounded-xl transition-all duration-300 ${isSelected ? "bg-white/30" : "bg-white/10 group-hover:bg-white/20"
+						}`}>
 					<Icon className="w-8 h-8 text-black" />
 				</div>
 				<div>
@@ -149,88 +151,87 @@ function SkillCard({ skill, isSelected, onClick }) {
 	);
 }
 const tagVariants = {
-  hidden: { opacity: 0, scale: 0.8 },
-  show: { opacity: 1, scale: 1 },
+	hidden: { opacity: 0, scale: 0.8 },
+	show: { opacity: 1, scale: 1 },
 };
 
 function SkillDetails({ selectedSkill }) {
-  if (!selectedSkill) return null;
+	if (!selectedSkill) return null;
 
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -20 }}
-      transition={{ duration: 0.5 }}
-      className="mt-12 space-y-8"
-    >
-      {/* Languages & Frameworks Section */}
-      <motion.div
-        className="bg-white/40 border border-gray-300/30 rounded-2xl p-8 shadow-sm"
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ delay: 0.2 }}
-      >
-        <h3 className="text-2xl font-semibold text-black mb-6 text-center">
-          Technology Stack
-        </h3>
-        <motion.div
-          key={selectedSkill.title}
-          className="flex flex-wrap justify-center gap-3"
-          variants={{ hidden: {}, show: { transition: { staggerChildren: 0.04, delayChildren: 0.1 } } }}
-          initial="hidden"
-          animate="show"
-        >
-          {selectedSkill.languages.map((skill) => (
-            <motion.span
-              key={skill.name}
-              variants={tagVariants}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 cursor-default flex items-center gap-2
-                ${
-                  skill.highlight
-                    ? "bg-black text-white shadow-md border-black scale-105 z-10 hover:shadow-lg"
-                    : "bg-gradient-to-r from-gray-200/60 to-white/40 border border-gray-400/40 text-black hover:bg-white/60"
-                }`}
-            >
-              {skill.highlight && (
-                <span className="text-yellow-400 text-[10px] animate-pulse">✦</span>
-              )}
-              {skill.name}
-            </motion.span>
-          ))}
-        </motion.div>
-      </motion.div>
+	return (
+		<motion.div
+			initial={{ opacity: 0, y: 20 }}
+			animate={{ opacity: 1, y: 0 }}
+			exit={{ opacity: 0, y: -20 }}
+			transition={{ duration: 0.5 }}
+			className="mt-12 space-y-8"
+		>
+			{/* Languages & Frameworks Section */}
+			<motion.div
+				className="bg-white/40 border border-gray-300/30 rounded-2xl p-8 shadow-sm"
+				initial={{ opacity: 0, x: -50 }}
+				animate={{ opacity: 1, x: 0 }}
+				transition={{ delay: 0.2 }}
+			>
+				<h3 className="text-2xl font-semibold text-black mb-6 text-center">
+					Technology Stack
+				</h3>
+				<motion.div
+					key={selectedSkill.title}
+					className="flex flex-wrap justify-center gap-3"
+					variants={{ hidden: {}, show: { transition: { staggerChildren: 0.04, delayChildren: 0.1 } } }}
+					initial="hidden"
+					animate="show"
+				>
+					{selectedSkill.languages.map((skill) => (
+						<motion.span
+							key={skill.name}
+							variants={tagVariants}
+							className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 cursor-default flex items-center gap-2
+                ${skill.highlight
+									? "bg-black text-white shadow-md border-black scale-105 z-10 hover:shadow-lg"
+									: "bg-gradient-to-r from-gray-200/60 to-white/40 border border-gray-400/40 text-black hover:bg-white/60"
+								}`}
+						>
+							{skill.highlight && (
+								<span className="text-yellow-400 text-[10px] animate-pulse">✦</span>
+							)}
+							{skill.name}
+						</motion.span>
+					))}
+				</motion.div>
+			</motion.div>
 
-      {/* Tools Section */}
-      <motion.div
-        className="bg-white/20 border border-gray-300/20 rounded-2xl p-8"
-        initial={{ opacity: 0, x: 50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ delay: 0.4 }}
-      >
-        <h3 className="text-xl font-medium text-gray-500 mb-6 text-center uppercase tracking-wider">
-          Infrastructure & Tools
-        </h3>
-        <motion.div
-          key={selectedSkill.title + "-tools"}
-          className="flex flex-wrap justify-center gap-3"
-          variants={{ hidden: {}, show: { transition: { staggerChildren: 0.04, delayChildren: 0.1 } } }}
-          initial="hidden"
-          animate="show"
-        >
-          {selectedSkill.tools.map((tool) => (
-            <motion.span
-              key={tool}
-              variants={tagVariants}
-              className="px-4 py-1.5 bg-gray-300/30 border border-gray-400/20 rounded-lg text-gray-600 text-xs font-medium"
-            >
-              {tool}
-            </motion.span>
-          ))}
-        </motion.div>
-      </motion.div>
-    </motion.div>
-  );
+			{/* Tools Section */}
+			<motion.div
+				className="bg-white/20 border border-gray-300/20 rounded-2xl p-8"
+				initial={{ opacity: 0, x: 50 }}
+				animate={{ opacity: 1, x: 0 }}
+				transition={{ delay: 0.4 }}
+			>
+				<h3 className="text-xl font-medium text-gray-500 mb-6 text-center uppercase tracking-wider">
+					Infrastructure & Tools
+				</h3>
+				<motion.div
+					key={selectedSkill.title + "-tools"}
+					className="flex flex-wrap justify-center gap-3"
+					variants={{ hidden: {}, show: { transition: { staggerChildren: 0.04, delayChildren: 0.1 } } }}
+					initial="hidden"
+					animate="show"
+				>
+					{selectedSkill.tools.map((tool) => (
+						<motion.span
+							key={tool}
+							variants={tagVariants}
+							className="px-4 py-1.5 bg-gray-300/30 border border-gray-400/20 rounded-lg text-gray-600 text-xs font-medium"
+						>
+							{tool}
+						</motion.span>
+					))}
+				</motion.div>
+			</motion.div>
+		</motion.div>
+	);
 }
 
 export default function Skills() {

@@ -166,16 +166,16 @@ export default function Education() {
 						whileInView={{ opacity: 1, x: 0 }}
 						transition={{ duration: 0.8, delay: 0.2 }}>
 						<div className="font-medium text-lg mb-4">
-							2022 - Present
+							Aug 2016 - Dec 2020
 						</div>
 						<div>
 							<h2 className="font-semibold text-xl">
-								Universitas Negeri Malang
+								University of Florida
 							</h2>
 							<h3 className="text-md font-normal mb-3">
-								S1 Teknik Informatika | Computer Science
+								Bachelor | Computer Science
 							</h3>
-							<div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
+							{/* <div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
 								<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
 									<Image
 										src={Me5}
@@ -203,7 +203,7 @@ export default function Education() {
 										className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
 									/>
 								</div>
-							</div>
+							</div> */}
 							<div className="flex items-center gap-2">
 								<p className="text-gray-600 text-justify title text-lg">
 									I graduated as one of the{" "}
@@ -212,7 +212,7 @@ export default function Education() {
 									</span>{" "}
 									from{" "}
 									<span className="text-black font-medium">
-										Universitas Negeri Malang
+										Universiy of Florida
 									</span>
 									, completing my Bachelor in{" "}
 									<span className="text-black font-medium">
@@ -223,8 +223,8 @@ export default function Education() {
 									technical research and high-stakes
 									execution.
 									<br />
-									<br />
-									As the{" "}
+									{/* <br /> */}
+									{/* As the{" "}
 									<span className="text-black font-medium">
 										Co-Lead of Google Developer Group on
 										Campus (GDGoC)
@@ -237,8 +237,8 @@ export default function Education() {
 										two-time PIMNAS Finalist and an
 										Indonesia Inventor Day Gold Medalist
 									</span>
-									.
-									<br />
+									. */}
+									{/* <br /> */}
 									<br />
 									My education served as the engineering
 									foundation for my current work in{" "}
@@ -293,8 +293,8 @@ export default function Education() {
 												}}>
 												{/* Year indicator for first achievement of each year */}
 												{index === 0 ||
-												visibleAchievements[index - 1]
-													?.year !==
+													visibleAchievements[index - 1]
+														?.year !==
 													achievement.year ? (
 													<div className="flex items-center gap-3 mb-3 mt-2">
 														<div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center">
