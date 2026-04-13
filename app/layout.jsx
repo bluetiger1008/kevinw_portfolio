@@ -52,8 +52,8 @@ export const metadata = {
 			{
 				url: "/og_kevin.png",
 				alt: "Kevin Wang Portofolio",
-				width: 1200,
-				height: 630,
+				width: 447,
+				height: 291,
 			},
 		],
 	},
