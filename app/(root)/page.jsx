@@ -115,12 +115,12 @@ const MyPage = () => {
 								type: "spring",
 							}}>
 							Experienced Software Engineer with 10 years of building reliable, high‑quality web applications.
-							Skilled in React, Node.js, WordPress, WooCommerce, Shopify, and custom theme development
-							across modern CMS platforms like Hygraph and Contentful. I focus on clean architecture,
+							Skilled in <b>React</b>, <b>Node.js</b>, <b>WordPress</b>, <b>WooCommerce</b>, <b>Shopify</b>, and custom theme development
+							across modern <b>CMS platforms</b> like <b>Hygraph</b> and <b>Contentful</b>. I focus on clean architecture,
 							maintainable code, and smooth collaboration with both technical and non‑technical teams. I
-							also work with AI integrations, adding smart features to websites and apps using tools like
-							OpenAI and Anthropic. This includes building chatbots, automating content, improving search
-							with embeddings, and creating AI‑powered workflows that make products faster, smarter, and
+							also work with <b>AI integrations</b>, adding smart features to websites and apps using tools like
+							<b>OpenAI</b> and <b>Anthropic</b>. This includes building chatbots, automating content, improving search
+							with embeddings, and creating <b>AI‑powered workflows</b> that make products faster, smarter, and
 							more efficient.
 						</motion.p>
 						<motion.div
