@@ -260,7 +260,7 @@ const MyPage = () => {
 								fill
 								sizes="(max-width: 768px) 80vw, 30vw"
 								className="object-cover"
-								alt="Alvalens Setup"
+								alt="Kevin Setup"
 								placeholder="blur"
 							/>
 						</motion.div>
@@ -331,7 +331,7 @@ const MyPage = () => {
 								fill
 								sizes="(max-width: 768px) 80vw, 30vw"
 								className="object-cover"
-								alt="Alvalens Setup"
+								alt="Kevin Setup"
 								placeholder="blur"
 							/>
 						</motion.div>
@@ -376,7 +376,7 @@ const MyPage = () => {
 						{/* icons */}
 						<div className="flex justify-center items-center space-x-4">
 							<motion.a
-								href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,"
+								href="mailto:kevinwang@sportyconnects.com?subject=Hello&body=Hello Kevin,"
 								aria-label="Send email"
 								className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 								initial={{ y: 40, opacity: 0 }}
