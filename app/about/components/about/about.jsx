@@ -2,7 +2,7 @@ import Image from "next/image";
 import Card from "./spotify/card";
 import { motion } from "framer-motion";
 import Me1 from "@/public/image/me1.jpg";
-import Me2 from "@/public/image/me2.jpg";
+import Me2 from "@/public/image/me2.png";
 import Me3 from "@/public/image/me3.jpg";
 import Hr from "@/components/Hr";
 
@@ -111,7 +111,7 @@ export default function About() {
 						type: "spring",
 					}}>
 					<h2 className="text-2xl font-bold tracking-wider mb-3">
-						Alvalen Shafelbilyunazra
+						Kevin Wang
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg leading-relaxed">
 						I am a{" "}
@@ -124,7 +124,7 @@ export default function About() {
 						</span>
 						. A Computer Science graduate from{" "}
 						<span className="text-black font-medium">
-							Universitas Negeri Malang
+							University of Florida
 						</span>
 						, my professional journey is defined by high-stakes
 						projects, ranging from robust government-scale

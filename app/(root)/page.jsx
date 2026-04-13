@@ -12,7 +12,7 @@ import { FullPageWrapper, Section, useFullPage } from "@alvalens/react-fullpage-
 // components
 import Button from "@/components/Button";
 import Me from "@/public/image/kevin_front.png";
-import MeAbout from "@/public/image/me2.jpg";
+import MeAbout from "@/public/image/me2.png";
 import Setup from "@/public/image/setup.jpg";
 import ProjectAll from "@/public/image/projects.png";
 import Hr from "@/components/Hr";
@@ -169,7 +169,7 @@ const MyPage = () => {
 			<Section>
 				<div className="relative md:h-screen w-screen gap-4 flex justify-center items-center flex-col overflow-hidden">
 					<div className="z-0 mb-48 md:mb-0  md:absolute md:top-1/2  md:right-[10%] md:-translate-y-1/2">
-						{/* <motion.div
+						<motion.div
 							className="relative bg-slate-300 rounded-sm h-[400px] md:h-[60vh] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0"
 							initial={{
 								x: 300,
@@ -195,7 +195,7 @@ const MyPage = () => {
 								alt="Alvalens"
 								placeholder="blur"
 							/>
-						</motion.div> */}
+						</motion.div>
 					</div>
 					<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
 						<motion.h1
@@ -369,8 +369,8 @@ const MyPage = () => {
 								delay: 0.3,
 								type: "spring",
 							}}>
-							<a href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,">
-								alvalen.shafel04@gmail.com
+							<a href="mailto:wangkevin.1008@gmail.com?subject=Hello&body=Hello Kevin,">
+								wangkevin.1008@gmail.com
 							</a>
 						</motion.p>
 						{/* icons */}
@@ -392,7 +392,7 @@ const MyPage = () => {
 							</motion.a>
 
 							<motion.a
-								href="https://github.com/Alvalens"
+								href="https://github.com/bluetiger1008"
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="GitHub profile"
@@ -408,7 +408,7 @@ const MyPage = () => {
 									className="text-3xl"
 								/>
 							</motion.a>
-							<motion.a
+							{/* <motion.a
 								href="https://www.instagram.com/alvalens_/"
 								target="_blank"
 								rel="noopener noreferrer"
@@ -424,9 +424,9 @@ const MyPage = () => {
 									icon={faInstagram}
 									className="text-3xl"
 								/>
-							</motion.a>
+							</motion.a> */}
 							<motion.a
-								href="https://www.linkedin.com/in/alvalen-shafel-8a081a254/"
+								href="https://www.linkedin.com/in/ikevinwang"
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="LinkedIn profile"
