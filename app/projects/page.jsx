@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import Intervyou1 from "@/public/image/projects/web/intervyou/intervyou-1.png";
-import Intervyou2 from "@/public/image/projects/web/intervyou/intervyou-2.png";
-import Intervyou3 from "@/public/image/projects/web/intervyou/intervyou-3.png";
+import Tmm1 from "@/public/image/projects/web/tmm/1.webp";
+import Tmm2 from "@/public/image/projects/web/tmm/2.webp";
+import Tmm3 from "@/public/image/projects/web/tmm/3.webp";
 import ProjectAll from "@/public/image/projects.webp";
 
 import Hr from "@/components/Hr";
@@ -100,7 +100,7 @@ export default function Page() {
 									}}
 									className="relative w-full h-full shadow-lg">
 									<Image
-										src={Intervyou1}
+										src={Tmm1}
 										alt="Kevin projects"
 										fill
 										placeholder="blur"
@@ -124,7 +124,7 @@ export default function Page() {
 									transition={{ delay: 0.3 }}
 									className="relative w-full h-full shadow-lg ">
 									<Image
-										src={Intervyou3}
+										src={Tmm2}
 										alt="KevinW"
 										fill
 										placeholder="blur"
@@ -151,7 +151,7 @@ export default function Page() {
 									}}
 									className="relative w-full h-full shadow-lg">
 									<Image
-										src={Intervyou2}
+										src={Tmm3}
 										alt="KevinW"
 										fill
 										placeholder="blur"
@@ -177,25 +177,22 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Intervyou AI
+							Texas Mattress Makers
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							AI Based interview Preparation Website created to help fresh
-							graduates and job seekers prepare for interviews and optimize
-							their CV through AI-powered features. The website is built using
-							Next.js, TypeScript, Tailwind CSS, Shadcn UI, Prisma, and MySQL
-							(TiDB). This website can comprehensively analyze the user&apos;s
-							interview performance by providing a analysis of the user&apos;s
-							answer, gesture, and material recommendation to improve the user&apos;s
-							interview skills.
+							Texas Mattress Makers is an eCommerce platform focused on improving sleep quality by offering a wide range of mattresses tailored to different needs.
+							<br /><br />
+							The site is built using WordPress/WooCommerce on the backend with a Next.js headless frontend, resulting in a fully custom solution. I collaborated closely with a UI/UX designer to convert Figma designs into a responsive, pixel-perfect interface.
+							<br /><br />
+							I led the development end-to-end and handled complex technical challenges, including custom checkout integration with Stripe and advanced user data handling.
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">
-								<Link href="projects/intervyou">More</Link>
+								<Link href="projects/tmm">More</Link>
 							</Button>
 							<Button variation="secondary">
 								<a
-									href="https://www.intervyou.me"
+									href="https://www.texasmattressmakers.com"
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview
