@@ -212,7 +212,7 @@ export default function Education() {
 									</span>{" "}
 									from{" "}
 									<span className="text-black font-medium">
-										Universiy of Florida
+										Universiy of Calgary
 									</span>
 									, completing my Bachelor in{" "}
 									<span className="text-black font-medium">
