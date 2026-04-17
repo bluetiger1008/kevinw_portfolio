@@ -24,14 +24,14 @@ const jost = Jost({
 });
 
 export const metadata = {
-	metadataBase: new URL("https://www.kevinwangport.online"),
+	metadataBase: new URL("https://kevinw-portfolio.vercel.app"),
 	title: "Kevin Wang | Portofolio",
 
 	description:
 		"Kevin Wang, Product-Minded Software Engineer specializing in Next.js, Spring Boot, and AI Solutions. Founder & CTO of SportyConnects.",
 
 	author: "Kevin Wang",
-	siteUrl: "https://www.kevinwangport.online",
+	siteUrl: "https://kevinw-portfolio.vercel.app",
 	applicationName: "Kevin",
 
 	keywords: [
@@ -44,7 +44,7 @@ export const metadata = {
 
 	openGraph: {
 		type: "website",
-		url: "https://www.kevinwangport.online",
+		url: "https://kevinw-portfolio.vercel.app",
 		title: "Kevin Wang | Portofolio",
 		siteName: "Kevin Wang | Portofolio",
 		description: "My name is Kevin Wang, This is my portofolio website.",
