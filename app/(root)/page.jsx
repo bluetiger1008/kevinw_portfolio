@@ -426,7 +426,7 @@ const MyPage = () => {
 								/>
 							</motion.a> */}
 							<motion.a
-								href="https://www.linkedin.com/in/ikevinwang"
+								href="https://www.linkedin.com/in/kevin-wang-959a37403/"
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="LinkedIn profile"
