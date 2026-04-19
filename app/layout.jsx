@@ -50,7 +50,7 @@ export const metadata = {
 		description: "My name is Kevin Wang, This is my portofolio website.",
 		images: [
 			{
-				url: "/og_kevin.png",
+				url: "/og_kevin_new.png",
 				alt: "Kevin Wang Portofolio",
 				width: 1200,
 				height: 630,
