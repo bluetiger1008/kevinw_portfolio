@@ -170,7 +170,7 @@ export default function Education() {
 						</div>
 						<div>
 							<h2 className="font-semibold text-xl">
-								University of Florida
+								University of Calgary
 							</h2>
 							<h3 className="text-md font-normal mb-3">
 								Bachelor | Computer Science

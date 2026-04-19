@@ -2,6 +2,42 @@
   "Projects": [
     {
       "show": true,
+      "title": "Understanding Houston",
+      "desc": [
+        "Understanding Houston is an innovative indicators platform that uses user-friendly visuals and thoughtful content design to communicate complex data clearly and effectively.",
+        "The platform is built with a WordPress/WooCommerce backend and a Next.js headless frontend, delivering a fully custom, high-performance solution. I collaborated closely with a UI/UX designer to transform Figma designs into a responsive, pixel-perfect interface.",
+        "I led the development end-to-end, structuring a scalable and well-organized frontend architecture to ensure maintainability and performance. I also implemented SEO best practices, including optimized metadata, structured content, and performance enhancements to improve search visibility.",
+        "On the data visualization side, I used Chart.js to build dynamic, interactive charts that present complex datasets in a clear and engaging way."
+      ],
+      "year": "2023",
+      "preview": "https://understandinghouston.org/",
+      "code": "",
+      "thumbnail": "/image/projects/web/uhou/1.webp",
+      "images": [
+        "/image/projects/web/uhou/1.webp",
+        "/image/projects/web/uhou/2.webp",
+        "/image/projects/web/uhou/3.webp",
+        "/image/projects/web/uhou/4.webp",
+        "/image/projects/web/uhou/5.webp"
+      ],
+      "tech": [
+        "NextJS",
+        "Wordpress",
+        "Chart.js",
+        "Typescript",
+        "Tailwind CSS",
+        "MySQL",
+        "Vercel",
+        "Advanced Custom Fields",
+        "Custom Post Types"
+      ],
+      "slug": "tmm",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
       "title": "Texas Mattress Makers",
       "desc": [
         "Texas Mattress Makers is an eCommerce platform focused on improving sleep quality by offering a wide range of mattresses tailored to different needs.",
