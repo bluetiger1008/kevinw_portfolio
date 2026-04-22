@@ -170,7 +170,7 @@ export default function Education() {
 						</div>
 						<div>
 							<h2 className="font-semibold text-xl">
-								University of Calgary
+								University of Florida
 							</h2>
 							<h3 className="text-md font-normal mb-3">
 								Bachelor | Computer Science
@@ -206,23 +206,6 @@ export default function Education() {
 							</div> */}
 							<div className="flex items-center gap-2">
 								<p className="text-gray-600 text-justify title text-lg">
-									I graduated as one of the{" "}
-									<span className="text-black font-medium">
-										Most Outstanding Students
-									</span>{" "}
-									from{" "}
-									<span className="text-black font-medium">
-										Universiy of Calgary
-									</span>
-									, completing my Bachelor in{" "}
-									<span className="text-black font-medium">
-										Computer Science
-									</span>{" "}
-									with a perfect GPA. My academic journey
-									was defined by a balance of rigorous
-									technical research and high-stakes
-									execution.
-									<br />
 									{/* <br /> */}
 									{/* As the{" "}
 									<span className="text-black font-medium">

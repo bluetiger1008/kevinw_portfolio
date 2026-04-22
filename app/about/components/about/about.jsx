@@ -124,7 +124,7 @@ export default function About() {
 						</span>
 						. A Computer Science graduate from{" "}
 						<span className="text-black font-medium">
-							University of Calgary
+							University of Florida
 						</span>
 						, my professional journey is defined by high-stakes
 						projects, ranging from robust government-scale

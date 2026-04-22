@@ -71,7 +71,7 @@ const jsonLd = {
 	],
 	alumniOf: {
 		"@type": "CollegeOrUniversity",
-		name: "Universitas of Calgary",
+		name: "University of Florida",
 	},
 	sameAs: [
 		"https://github.com/bluetiger1008",
