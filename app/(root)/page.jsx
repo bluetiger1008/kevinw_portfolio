@@ -372,6 +372,15 @@ const MyPage = () => {
 							<a href="mailto:kevinwang.sun8888@gmail.com?subject=Hello&body=Hello Kevin,">
 								kevinwang.sun8888@gmail.com
 							</a>
+							<br />
+							<a href="mailto:kevinwang@sportyconnects.com?subject=Hello&body=Hello Kevin,">
+								kevinwang@sportyconnects.com
+							</a>
+							<a
+								href="tel:+13464665270"
+								className="block mt-6 text-inherit">
+								+1 (346) 466-5270
+							</a>
 						</motion.p>
 						{/* icons */}
 						<div className="flex justify-center items-center space-x-4">
@@ -426,7 +435,7 @@ const MyPage = () => {
 								/>
 							</motion.a> */}
 							<motion.a
-								href="https://www.linkedin.com/in/kevin-wang-959a37403/"
+								href="https://www.linkedin.com/in/ikevinwang"
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="LinkedIn profile"
