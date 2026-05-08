@@ -135,37 +135,35 @@ const experiences = [
 		id: 4,
 		startDate: "Dec 2024",
 		endDate: "Apr 2026",
-		company: "CoachUp, Inc",
+		company: "Teach.org",
 		position: "Lead Full-Stack Engineer",
-		type: "Full-time (Remote)",
-		location: "Massachusetts, U.S",
+		type: "Lead Drupal Full-Stack Engineer",
+		location: "Remote",
 		description:
 			`<ul class="pl-8">
-				<li class="list-disc">Designed and built the entire trainer booking platform end‑to‑end, including
-				authentication, booking flows, trainer profiles, messaging, and session management.
-				</li>
-				<li class="list-disc">Developed a clean, scalable architecture using Next.js, React, Node.js, and modern API
-				patterns. </li>
-				<li class="list-disc">Reduced frontend bundle size and improved performance by replacing heavy
-				dependencies like Redux with TanStack React Query and Zustand, modernizing form
-				handling with React Hook Form + Zod, and implementing code-splitting, lazy loading,
-				and optimized builds using Next.js, Webpack Analyzer, and Turbopack.</li>
-				<li class="list-disc">Implemented media upload pipelines using AWS S3, including secure file handling,
-				pre-signed URLs, and optimized storage/access patterns for images and videos.</li>
-				<li class="list-disc">Integrated global payment and communication systems, including PayPal, Stripe,
-				Mailgun, and automated email flows.</li>
-				<li class="list-disc">Implemented analytics and growth tools (GA4, tracking funnels, user behavior insights)
-				to support marketing and onboarding.</li>
-				<li class="list-disc">Optimized performance and SEO, improving load times, Core Web Vitals, and organic
-				discoverability.</li>
-				<li class="list-disc">Collaborated with trainers, athletes, and early adopters to refine features and improve
-				user experience.</li>
+				<li class="list-disc">Led the development and maintenance of Teach.org’s Drupal platform, supporting educators,
+				teachers, and community engagement initiatives across multiple states.</li>
+				<li class="list-disc">Converted Figma designs into pixel-perfect, fully responsive Drupal themes with strong focus on
+				accessibility, usability, and mobile-first design.</li>
+				<li class="list-disc">Built and managed teacher booking and event calendar systems, including scheduling workflows,
+				reminders, registration flows, and user-friendly search functionality.</li>
+				<li class="list-disc">Developed custom Drupal modules, CMS templates, and reusable content components to help
+				non-technical staff manage content efficiently.</li>
+				<li class="list-disc">Managed Drupal schema architecture, content types, taxonomies, and site structure for scalable
+				and organized content management.</li>
+				<li class="list-disc">Integrated third-party APIs and services including contact forms, Mailgun, analytics tools, and
+				external communication platforms.</li>
+				<li class="list-disc">Implemented secure media handling and AWS S3 integrations for document, image, and video
+				management.</li>
+				<li class="list-disc">Optimized website performance, SEO, Core Web Vitals, and ADA/WCAG accessibility compliance
+				across the platform.</li>
+				<li class="list-disc">Coordinated domain and subdomain infrastructure for state-specific Teach.org experiences and
+				redirect management.<li>
+				<li class="list-disc">Worked closely with internal teams and stakeholders to improve user experience, accessibility, and
+				overall platform reliability.</li>
 			</ul>`,
 		skills: [
-			"Java Spring Boot",
-			"Microservices",
-			"Docker",
-			"PostgreSQL",
+			"Drupal",
 			"React.js",
 		],
 	},
