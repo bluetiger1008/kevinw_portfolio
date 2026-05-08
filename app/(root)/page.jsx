@@ -131,7 +131,7 @@ const MyPage = () => {
 								delay: 0.5,
 								type: "spring",
 							}}>
-							<Button variation="primary">
+							{/* <Button variation="primary">
 								<Link
 									href={"/docs/kevin_resume.pdf"}
 									target="_blank"
@@ -139,7 +139,7 @@ const MyPage = () => {
 									download>
 									Download CV
 								</Link>
-							</Button>
+							</Button> */}
 							<Button variation="secondary">
 								<a href="#contact">Contact Me</a>
 							</Button>
@@ -376,11 +376,11 @@ const MyPage = () => {
 							<a href="mailto:kevinwang@sportyconnects.com?subject=Hello&body=Hello Kevin,">
 								kevinwang@sportyconnects.com
 							</a>
-							<a
+							{/* <a
 								href="tel:+13464665270"
 								className="block mt-6 text-inherit">
 								+1 (346) 466-5270
-							</a>
+							</a> */}
 						</motion.p>
 						{/* icons */}
 						<div className="flex justify-center items-center space-x-4">
