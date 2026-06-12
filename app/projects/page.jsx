@@ -46,7 +46,7 @@ export default function Page() {
 							className="relative bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
 								src={ProjectAll}
-								alt="Kevin projects"
+								alt="Kenji Hayashi projects"
 								fill
 								placeholder="blur"
 								className="object-cover"
@@ -101,7 +101,7 @@ export default function Page() {
 									className="relative w-full h-full shadow-lg">
 									<Image
 										src={Tmm1}
-										alt="Kevin projects"
+										alt="Kenji Hayashi projects"
 										fill
 										placeholder="blur"
 										className="rat object-cover"
@@ -125,7 +125,7 @@ export default function Page() {
 									className="relative w-full h-full shadow-lg ">
 									<Image
 										src={Tmm2}
-										alt="KevinW"
+										alt="Kenji Hayashi"
 										fill
 										placeholder="blur"
 										className="object-cover"
@@ -152,7 +152,7 @@ export default function Page() {
 									className="relative w-full h-full shadow-lg">
 									<Image
 										src={Tmm3}
-										alt="KevinW"
+										alt="Kenji Hayashi"
 										fill
 										placeholder="blur"
 										className="object-cover"

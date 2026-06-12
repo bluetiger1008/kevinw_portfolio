@@ -24,34 +24,33 @@ const jost = Jost({
 });
 
 export const metadata = {
-	metadataBase: new URL("https://kevinw-portfolio.vercel.app"),
-	title: "Kevin Wang | Portofolio",
+	metadataBase: new URL("https://www.kenjihayashiport.online"),
+	title: "Kenji Hayashi | Portofolio",
 
 	description:
-		"Kevin Wang, Product-Minded Software Engineer specializing in Next.js, Spring Boot, and AI Solutions. Founder & CTO of SportyConnects.",
+		"Kenji Hayashi, Product-Minded Software Engineer specializing in Next.js, Spring Boot, and AI Solutions. Founder & CTO of SportyConnects.",
 
-	author: "Kevin Wang",
-	siteUrl: "https://kevinw-portfolio.vercel.app",
-	applicationName: "Kevin",
+	author: "Kenji Hayashi",
+	siteUrl: "https://www.kenjihayashiport.online",
+	applicationName: "Kenji",
 
 	keywords: [
-		"kevinwang",
-		"kevinwang",
-		"kevin wang",
-		"wang",
-		"kevin porto",
+		"kenjihayashi",
+		"kenji hayashi",
+		"hayashi",
+		"kenji porto",
 	],
 
 	openGraph: {
 		type: "website",
-		url: "https://kevinw-portfolio.vercel.app",
-		title: "Kevin Wang | Portofolio",
-		siteName: "Kevin Wang | Portofolio",
-		description: "My name is Kevin Wang, This is my portofolio website.",
+		url: "https://www.kenjihayashiport.online",
+		title: "Kenji Hayashi | Portofolio",
+		siteName: "Kenji Hayashi | Portofolio",
+		description: "My name is Kenji Hayashi, This is my portofolio website.",
 		images: [
 			{
-				url: "/og_kevin_new.png",
-				alt: "Kevin Wang Portofolio",
+				url: "/og_kenji_new.png",
+				alt: "Kenji Hayashi Portofolio",
 				width: 1200,
 				height: 630,
 			},
@@ -62,8 +61,8 @@ export const metadata = {
 const jsonLd = {
 	"@context": "https://schema.org",
 	"@type": "Person",
-	name: "Kevin Wang",
-	url: "https://www.kevinwangport.online",
+	name: "Kenji Hayashi",
+	url: "https://www.kenjihayashiport.online",
 	jobTitle: "Full Stack Software Engineer",
 	worksFor: [
 		{ "@type": "Organization", name: "MGG Software" },
@@ -75,7 +74,7 @@ const jsonLd = {
 	},
 	sameAs: [
 		"https://github.com/bluetiger1008",
-		"https://www.linkedin.com/in/",
+		"https://www.linkedin.com/in/ikenjihayashi",
 		"https://www.instagram.com/bluetiger1008/",
 	],
 };

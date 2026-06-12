@@ -11,7 +11,7 @@ import { FullPageWrapper, Section, useFullPage } from "@alvalens/react-fullpage-
 
 // components
 import Button from "@/components/Button";
-import Me from "@/public/image/kevin_new.png";
+import Me from "@/public/image/kenji_new.png";
 import MeAbout from "@/public/image/me2.png";
 import Setup from "@/public/image/setup.jpg";
 import ProjectAll from "@/public/image/projects.webp";
@@ -81,7 +81,7 @@ const MyPage = () => {
 									width={500}
 									height={500}
 									className="rounded-full w-full h-full object-cover "
-									alt="KevinW"
+									alt="Kenji Hayashi"
 									placeholder="blur"
 								/>
 							</div>
@@ -94,7 +94,7 @@ const MyPage = () => {
 								delay: 0.2,
 								type: "spring",
 							}}>
-							Kevin Wang
+							Kenji Hayashi
 						</motion.h3>
 						<motion.h1
 							className="text-black text-4xl md:text-6xl lg:text-6xl 2xl:text-8xl font-bold my-2 md:my-5"
@@ -133,7 +133,7 @@ const MyPage = () => {
 							}}>
 							{/* <Button variation="primary">
 								<Link
-									href={"/docs/kevin_resume.pdf"}
+									href={"/docs/kenji_resume.pdf"}
 									target="_blank"
 									rel="noopener noreferrer"
 									download>
@@ -159,7 +159,7 @@ const MyPage = () => {
 								width={400}
 								height={550}
 								placeholder="blur"
-								alt="KevinW"
+								alt="Kenji Hayashi"
 								className="rounded-full w-full h-full object-cover"
 							/>
 						</div>
@@ -192,7 +192,7 @@ const MyPage = () => {
 								fill
 								sizes="(max-width: 768px) 80vw, 30vw"
 								className="object-cover"
-								alt="KevinW"
+								alt="Kenji Hayashi"
 								placeholder="blur"
 							/>
 						</motion.div>
@@ -260,7 +260,7 @@ const MyPage = () => {
 								fill
 								// sizes="(max-width: 768px) 80vw, 30vw"
 								className="object-cover"
-								alt="Kevin Setup"
+								alt="Kenji Hayashi setup"
 								placeholder="blur"
 							/>
 						</motion.div>
@@ -331,7 +331,7 @@ const MyPage = () => {
 								fill
 								sizes="(max-width: 768px) 80vw, 30vw"
 								className="object-cover"
-								alt="Kevin Setup"
+								alt="Kenji Hayashi setup"
 								placeholder="blur"
 							/>
 						</motion.div>
@@ -369,12 +369,8 @@ const MyPage = () => {
 								delay: 0.3,
 								type: "spring",
 							}}>
-							<a href="mailto:kevinwang.sun8888@gmail.com?subject=Hello&body=Hello Kevin,">
-								kevinwang.sun8888@gmail.com
-							</a>
-							<br />
-							<a href="mailto:kevinwang@sportyconnects.com?subject=Hello&body=Hello Kevin,">
-								kevinwang@sportyconnects.com
+							<a href="mailto:kenjihayashi8888@proton.me?subject=Hello&body=Hello Kenji,">
+								kenjihayashi8888@proton.me
 							</a>
 							{/* <a
 								href="tel:+13464665270"
@@ -385,7 +381,7 @@ const MyPage = () => {
 						{/* icons */}
 						<div className="flex justify-center items-center space-x-4">
 							<motion.a
-								href="mailto:kevinwang.sun8888@gmail.com?subject=Hello&body=Hello Kevin,"
+								href="mailto:kenjihayashi8888@proton.me?subject=Hello&body=Hello Kenji,"
 								aria-label="Send email"
 								className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 								initial={{ y: 40, opacity: 0 }}
@@ -435,7 +431,7 @@ const MyPage = () => {
 								/>
 							</motion.a> */}
 							<motion.a
-								href="https://www.linkedin.com/in/ikevinwang"
+								href="https://jp.linkedin.com/in/kenji-hayashi-300b87210/"
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="LinkedIn profile"

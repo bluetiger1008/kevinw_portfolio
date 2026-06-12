@@ -1,12 +1,12 @@
 {
-  "name": "kevinwang-portfolio-website",
+  "name": "kenjihayashi-portfolio-website",
   "author": {
-    "name": "Kevin Wang",
-    "email": "kevwang.sun8888@gmail.com",
-    "url": "https://kevinw-portfolio.vercel.app/"
+    "name": "Kenji Hayashi",
+    "email": "kenjihayashi8888@proton.me",
+    "url": "https://www.kenjihayashiport.online/"
   },
   "license": "GPL-3.0",
-  "copyright": "Copyright (C) 2026 Kevin Wang",
+  "copyright": "Copyright (C) 2026 Kenji Hayashi",
   "version": "1.0.0",
   "private": true,
   "scripts": {

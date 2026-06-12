@@ -5,11 +5,11 @@ export async function generateMetadata({ params }) {
 	const project = jsonData.Projects.find((item) => item.slug === slug);
 
 	if (!project) {
-		return { title: "Not Found | Kevin Wang" };
+		return { title: "Not Found | Kenji Hayashi" };
 	}
 
 	return {
-		title: `${project.title} | Kevin Wang`,
+		title: `${project.title} | Kenji Hayashi`,
 		description: project.desc[0]?.slice(0, 160),
 	};
 }
